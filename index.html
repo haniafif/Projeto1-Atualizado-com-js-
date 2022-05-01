@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Escreva seu primeiro nome</h1>
+    <div id="centro"><input type="text" name="nome" id="nome"></div>
+    <div id="but"><input type="submit" value="Enter" onclick="fazer()" id="bu"></div>
+    <div id="resultado"></div>
+
+
+    <script>
+        function fazer(){
+            var name = document.querySelector("input#nome")
+            var res = document.querySelector("div#resultado")
+            res.innerHTML= `${name.value}`
+            sessionStorage.setItem('nome', name.value);
+            window.location.href='index2.html'
+        }
+
+        var input = document.querySelector("input#nome");
+        input.addEventListener("keypress", function(event) {
+        if (event.key === "Enter") {
+        event.preventDefault();
+        document.querySelector("input#bu").click();
+  }
+});
+
+    </script>
+
+    
+</body>
+</html>

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+body {
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+div#centro{
+    display: flex;
+    flex-direction: initial;
+    justify-content: center;
+    margin-top: 25vh;
+}
+
+input#nome{
+  width: 120px;
+  transition: width 0.4s ease-in-out;
+  
+}
+
+input#nome:focus{
+  width: 170px;
+}
+
+div#but{
+    display: flex;
+    flex-direction: initial;
+    justify-content: center;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-decoration: none;
+    
+    
+}
+
+input#bu{
+    height: 25px;
+    border: none;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.171);
+
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 25vh;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+input#nome{
+    size: 60px;
+    border: 1px solid black;
+    height: 20px;
+    border-radius: 5px;
+
+}
+
+
