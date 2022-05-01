@@ -124,6 +124,7 @@ nav{
 nav > a {
   text-decoration: none;
   padding: 10px 40px;
+  color: var(--cinza);
 }
 
 a:active{
