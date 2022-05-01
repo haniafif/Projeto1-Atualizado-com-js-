@@ -14,7 +14,7 @@
 }
 
 body {
-    animation: fadeInAnimation ease 2s;
+    animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     font-family: var(--fontpadrao);
@@ -49,26 +49,35 @@ h1#tit2{
     padding-top: 7%;
     color: var(--cinza);
     font-size: 2.3em;
+    animation: fadeInAnimation ease 12s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 
 }
 
 .video{
-    max-width: 400;
-    max-height: 120%;
-    margin: 0 auto;
-    padding: 8%;
+    position: relative; 
+    padding-bottom: 280px; 
+    max-width: 600;
+    max-height: 100%;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 4%;
+    overflow: hidden;
     
 }
 
 iframe {
     height: 100%;
     width: 100%;
+    background-image: url(imagens/texto.jpg);
+    
 }
 
 iframe:hover{
-        -webkit-transform: scale(1.7);
-        -ms-transform: scale(1.7);
-        transform: scale(1.7);
+        -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
         transition: 0.4s;
 }
 
