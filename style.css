@@ -2,9 +2,10 @@
 
 
 body {
-    animation: fadeInAnimation ease 4s;
+    animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    font-family: 'Roboto', sans-serif;
   }
   
   @keyframes fadeInAnimation {
@@ -24,13 +25,13 @@ div#centro{
 }
 
 input#nome{
-  width: 120px;
+  width: 170px;
   transition: width 0.4s ease-in-out;
   
 }
 
 input#nome:focus{
-  width: 170px;
+  width: 220px;
 }
 
 div#but{
@@ -67,6 +68,19 @@ input#nome{
     height: 20px;
     border-radius: 5px;
 
+}
+
+div#resultado{
+  visibility: hidden;
+
+}
+
+p{
+  text-align: center;
+  animation: fadeInAnimation ease 8s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  color: rgba(0, 0, 0, 0.719);
 }
 
 
