@@ -14,7 +14,7 @@
 }
 
 body {
-    animation: fadeInAnimation ease 3s;
+    animation: fadeInAnimation ease-in 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     font-family: var(--fontpadrao);
@@ -34,21 +34,15 @@ p{
   animation-fill-mode: forwards;
   color: var(--cinza);
 }
-
-main#corpo{
-    background-color: white;
-    height: 100vh;
-}
-
 span#react{
     color: aqua;
 }
 
 h1#tit2{
-    padding-left: 6%;
+    padding-left: 4%;
     padding-top: 7%;
     color: var(--cinza);
-    font-size: 2.3em;
+    font-size: 2.1em;
     animation: fadeInAnimation ease 12s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -57,10 +51,8 @@ h1#tit2{
 
 .video{
     position: relative; 
-    padding-bottom: 280px; 
-    max-width: 600;
-    max-height: 100%;
-    margin-left: 50px;
+    max-height: 110%;
+    margin-left: 20px;
     margin-top: 20px;
     padding: 4%;
     overflow: hidden;
@@ -69,7 +61,7 @@ h1#tit2{
 
 iframe {
     height: 100%;
-    width: 100%;
+    width: 90%;
     background-image: url(imagens/texto.jpg);
     
 }
