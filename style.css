@@ -21,7 +21,7 @@ div#centro{
     display: flex;
     flex-direction: initial;
     justify-content: center;
-    margin-top: 25vh;
+    margin-top: 23vh;
 }
 
 input#nome{
@@ -40,7 +40,7 @@ div#but{
     justify-content: center;
     border: none;
     color: rgb(0, 0, 0);
-    padding: 10px;
+    padding: 30px;
     text-decoration: none;
     
     
